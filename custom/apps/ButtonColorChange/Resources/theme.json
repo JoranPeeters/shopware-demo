@@ -1,0 +1,13 @@
+{
+  "name": "ButtonColorChange",
+  "author": "TakeTheLead",
+  "views": [
+    "@Storefront",
+    "@Plugins",
+    "@ButtonColorChange"
+  ],
+  "style": [
+    "@Storefront",
+    "app/storefront/src/scss/base.scss"
+  ]
+}
