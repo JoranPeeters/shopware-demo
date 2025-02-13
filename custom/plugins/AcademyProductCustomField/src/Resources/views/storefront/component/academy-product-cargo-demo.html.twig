@@ -1,0 +1,7 @@
+{% block academy_product_cargo %}
+    {% if product.translated.customFields.academy_product_cargo %}
+        <div class="academy-product-cargo">
+            <img src="{{ asset('bundles/academyproductcustomfield/images/cargo.png') }}" alt="Cargo shipping" style="width: 50px; height: 35px;">
+        </div>
+    {% endif %}
+{% endblock %}

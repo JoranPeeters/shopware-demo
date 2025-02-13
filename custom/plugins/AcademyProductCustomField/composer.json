@@ -1,0 +1,24 @@
+{
+    "name": "academy/product-custom-field",
+    "description": "A plugin to add a custom field to the product entity",
+    "type": "shopware-platform-plugin",
+    "version": "1.0.0",
+    "license": "MIT",
+    "extra": {
+        "shopware-plugin-class": "Academy\\AcademyProductCustomField",
+        "label": {
+            "de-DE": "Product custom field plugin",
+            "en-GB": "Product custom field plugin"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Academy\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Academy\\Tests\\": "tests/"
+        }
+    }
+}
