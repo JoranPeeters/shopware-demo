@@ -1,7 +1,12 @@
 body {
   .btn-detail {
-    background-color: #0dcaf0 !important;
+    background-color: #004d82 !important;
     color: #ffffff;
-    border-color: #0dcaf0 !important;
+    border-radius: 5px;
+
+    &:hover{
+      background-color: #001a40 !important;
+      color: #ffffff;
+    }
   }
 }

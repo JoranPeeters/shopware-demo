@@ -1,0 +1,6 @@
+{% sw_extends '@Storefront/storefront/component/buy-widget/buy-widget.html.twig' %}
+
+{% block buy_widget_ordernumber_container %}
+    {{ parent() }}
+    {% include '@AcademyProductCustomField/storefront/component/academy-product-cargo-demo.html.twig' %}
+{% endblock %}
