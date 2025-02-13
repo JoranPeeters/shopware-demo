@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/trunk/src/Core/System/SystemConfig/Schema/config.xsd">
+
+    <card>
+        <title>Plugin Configuration</title>
+        <input-field type="date">
+            <name>specialEventDate</name>
+            <label>Date</label>
+            <defaultValue>2024-11-29T00:00:00</defaultValue>
+        </input-field>
+
+        <component name="sw-snippet-field">
+            <name>bannerText</name>
+            <label>Text for the banner</label>
+            <snippet>eventPlugin.banner.text</snippet>
+        </component>
+
+        <input-field type="colorpicker">
+            <name>bannerBackgroundColor</name>
+            <label>Color for the banner</label>
+            <defaultValue>#000000</defaultValue>
+        </input-field>
+
+        <input-field type="colorpicker">
+            <name>bannerTextColor</name>
+            <label>Text color for the banner</label>
+            <defaultValue>#FFFFFF</defaultValue>
+        </input-field>
+
+    </card>
+</config>
