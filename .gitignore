@@ -2,6 +2,8 @@
 /vendor/
 
 ###> shopware/core ###
+.env
+.env.dev
 .env.local
 .env.local.php
 .env.*.local
