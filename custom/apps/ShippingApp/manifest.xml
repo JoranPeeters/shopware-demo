@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/trunk/src/Core/Framework/App/Manifest/Schema/manifest-2.0.xsd">
+    <meta>
+        <name>ShippingApp</name>
+        <label>Shipping App</label>
+        <description>This app adds 2 new shipping methods</description>
+        <author>Take The Lead</author>
+        <copyright>Take The Lead</copyright>
+        <version>1.0.3</version>
+        <license>MIT</license>
+    </meta>
+
+    <shipping-methods>
+
+        <shipping-method>
+            <!-- The identifier should not change after the first release -->
+            <identifier>FastShippingMethod</identifier>
+            <name>Fast shipping method</name>
+
+            <delivery-time>
+                <!-- Requires a new generated UUID for your new delivery time -->
+                <id>c8864e36a4d84bd4a16cc31b5953431b</id>
+                <name>From 1 to 2 days</name>
+                <min>1</min>
+                <max>2</max>
+                <unit>day</unit>
+            </delivery-time>
+        </shipping-method>
+
+        <shipping-method>
+            <!-- The identifier should not change after the first release -->
+            <identifier>CargoShippingMethod</identifier>
+            <name>Cargo shipping method</name>
+
+            <delivery-time>
+                <!-- Requires a new generated UUID for your new delivery time -->
+                <id>46177c36a84b418b8ae1a22028aeb1c5</id>
+                <name>From 1 to 2 weeks</name>
+                <min>1</min>
+                <max>2</max>
+                <unit>week</unit>
+            </delivery-time>
+        </shipping-method>
+
+    </shipping-methods>
+</manifest>

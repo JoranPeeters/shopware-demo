@@ -1,0 +1,62 @@
+{
+  "name": "ShopwareDemoTheme",
+  "author": "Take The Lead",
+  "views": [
+     "@Storefront",
+     "@Plugins",
+     "@ShopwareDemoTheme"
+  ],
+  "style": [
+    "app/storefront/src/scss/overrides.scss",
+    "@Storefront",
+    "app/storefront/src/scss/base.scss"
+  ],
+  "script": [
+    "@Storefront",
+    "app/storefront/dist/storefront/js/shopware-demo-theme/shopware-demo-theme.js"
+  ],
+  "asset": [
+    "@Storefront",
+    "app/storefront/src/assets"
+  ],
+  "config": {
+    "blocks": {
+      "colors": {
+        "themeColors": {
+          "en-GB": "Theme colors",
+          "de-DE": "Theme Farben"
+        }
+      }
+    },
+    "sections": {
+      "importantColors": {
+        "label": {
+          "en-GB": "Important colors",
+          "de-DE": "Wichtige Farben"
+        }
+      }
+    },
+    "tabs": {
+      "colors": {
+        "label": {
+          "en-GB": "Colours",
+          "de-DE": "Farben"
+        }
+      }
+    },
+    "fields": {
+      "sw-color-brand-primary": {
+        "label": {
+          "en-GB": "Primary colour",
+          "de-DE": "Primär"
+        },
+        "type": "color",
+        "value": "#399",
+        "editable": true,
+        "tab": "colors",
+        "block": "themeColors",
+        "section": "importantColors"
+      }
+    }
+  }
+}
