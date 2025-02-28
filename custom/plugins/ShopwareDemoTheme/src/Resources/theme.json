@@ -1,5 +1,6 @@
 {
   "name": "ShopwareDemoTheme",
+  "version": 3,
   "author": "Take The Lead",
   "views": [
      "@Storefront",
