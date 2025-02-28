@@ -1,0 +1,62 @@
+{
+  "name": "AcademyTheme",
+  "author": "Shopware AG",
+  "views": [
+     "@Storefront",
+     "@Plugins",
+     "@AcademyTheme"
+  ],
+  "style": [
+    "app/storefront/src/scss/overrides.scss",
+    "@Storefront",
+    "app/storefront/src/scss/base.scss"
+  ],
+  "script": [
+    "@Storefront",
+    "app/storefront/dist/storefront/js/academy-theme/academy-theme.js"
+  ],
+  "asset": [
+    "@Storefront",
+    "app/storefront/src/assets"
+  ],
+  "config": {
+    "blocks": {
+      "themeColours": {
+        "label": {
+          "en-GB": "Theme colours",
+          "de-DE": "Theme Farben"
+        }
+      }
+    },
+    "sections": {
+      "importantColours": {
+        "label": {
+          "en-GB": "Important colours",
+          "de-DE": "Wichtige Farben"
+        }
+      }
+    },
+    "tabs": {
+      "colours": {
+        "label": {
+          "en-GB": "Colours",
+          "de-DE": "Farben"
+        }
+      }
+    },
+    "fields": {
+      "academy-color-status-neutral": {
+        "label": {
+          "en-GB": "Neutral status colour",
+          "de-DE": "Neutrale Status Farbe"
+        },
+        "type": "color",
+        "value": "#999999",
+        "editable": true,
+        "tab": "colours",
+        "block": "themeColours",
+        "section": "importantColours"
+      }
+    }
+  }
+}
